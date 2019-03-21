@@ -20,5 +20,5 @@ docker run -d --restart=unless-stopped --name node --network net-fsp -v /opt/www
 ## Development
 
 ```bash
-docker run -t -d --name node_development -v /yourlocal:/usr/src/app:rw fspnetwork/node
+docker run -t -d --name node_development -v /yourlocal:/usr/src/app:rw fspnetwork/node:development
 ```
