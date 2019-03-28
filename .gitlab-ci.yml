@@ -5,7 +5,7 @@ services:
 
 variables:
     DOCKER_DRIVER: overlay2
-    STABLE_VERSION: "3"
+    STABLE_VERSION: "10.15"
 
 before_script: 
     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
